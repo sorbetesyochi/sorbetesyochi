@@ -138,7 +138,7 @@
 		// background: #115F98;
 
 		// background-attachment: fixed;
-		overflow-y: scroll;
+		// overflow-y: scroll;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -646,6 +646,7 @@
 		@include vendor('justify-content', 'center');
 		@include vendor('transition', 'opacity 1s ease-in-out');
 
+		
 		body.is-preload & {
 			opacity: 0;
 		}
@@ -677,6 +678,7 @@
 		position: relative;
 		overflow: hidden;
 		width: 100%;
+	
 		background: #ffffff;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		@include vendor('transition', (
